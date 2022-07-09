@@ -1,0 +1,227 @@
+body {
+    font-family: "ABeeZee", Verdana, sans-serif;
+}
+
+aside {
+    border-style: dashed;
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 30px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    text-align: justify;
+}
+
+.FreeThought_aside {
+    border-style: dashed;
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 30px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    background-color: bisque;
+
+}
+
+figure {
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    text-align: justify;
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-right: 25px;
+    background-image: linear-gradient(#77f17d, rgb(255, 122, 89));
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(22, 197, 46);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+h1 {
+    font-family: "Audiowide", sans-serif;
+}
+
+h3 {
+    font-family: "Gelasio", sans-serif;
+}
+
+
+img {
+    border-radius: 14%;
+}
+
+.blockquote {
+    margin: 10px 30px;
+    padding: 25px;
+    background: #f8fffe;
+    border: 1px solid #b0d2cb;
+    color: #0b4237;
+    box-sizing: border-box;
+}
+
+.blockquote__text {
+    font-family: 'Gelasio', serif;
+    font-style: italic;
+    font-size: 1.15em;
+    line-height: 1.5;
+    margin: 0;
+
+}
+
+blockquote__text:not(:last-child) {
+    margin-bottom: 1em;
+
+}
+
+.blockquote--bordered {
+    border-left-width: 10px;
+
+}
+
+.blockquote__text--credit {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.blockquote__text--credit::before {
+    content: "\2014\0020";
+
+}
+
+.Author {
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-family: "Gelasio";
+
+}
+
+.Author::before {
+    content: "\2014\0020";
+
+}
+
+.blockquote--quoted::before {
+    content: "\201c";
+    font-size: 100px;
+    color: #009578;
+    display: block;
+    margin-bottom: -40px;
+    margin-top: -20px;
+}
+
+.lastRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    font-style: italic;
+    font-size: 1.15em;
+    line-height: 1.5;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+
+}
+
+.like div img {
+    width: 18%;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.like div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.TagRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    font-style: italic;
+    font-size: 1.15em;
+    line-height: 1.5;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.lastTag div img {
+    width: 10%;
+    margin-right: 10px;
+
+}
+
+.lastTag div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.activty-icon {
+    display: inline-flex;
+    font-size: 32px;
+    color: #0b4237;
+    margin: 0 9%;
+    border-radius: 50%;
+    align-items: center;
+    padding: 2%;
+}
+
+.YouTubeVideo {
+    align-items: center;
+}
+
+mark {
+    background-image: linear-gradient(#77f17d, rgb(255, 122, 89));
+    border-style: groove;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-color: lightgoldenrodyellow;
+}
