@@ -36,8 +36,13 @@ footer {
 
 figure {
     text-align: center;
+    /* align-items: center; */
 }
 
+img {
+    width: 400px;
+     height:315px;
+}
 
 body {
     margin: 0;
@@ -216,6 +221,7 @@ blockquote__text:not(:last-child) {
 
 .YouTubeVideo {
     align-items: center;
+    
 }
 
 mark {
